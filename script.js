@@ -28,6 +28,7 @@ document.addEventListener('keydown', function (e) {
      * When a keydown Event occurs, JS generates an Event objects which stores information 
      * about the particular Event and is accessible to the Event Handler function.
      * It takes the Event object as an argument.
+     * Keyboard event are so called Gloabl events.
      */
 
     if (e.key === "e") {
